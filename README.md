@@ -1,5 +1,10 @@
 # EPICS makeBaseApp.pl Sample Use Case
-This is to demonstrate some standard use cases for the EPICS **_makeBaseApp.pl_** utility. 
+
+First off: this is about **EPICS** 
+* https://epics-controls.org/
+
+This is to demonstrate some standard use cases for the EPICS **_makeBaseApp.pl_** utility, documented officially in
+* https://epics.anl.gov/base/R3-16/2-docs/AppDevGuide.pdf
 
 Note: In this document (and in the EPICS documentation and script output), the term IOC or IOC Application
 gets commonly used to mean one of two things; the name of an IOC Application binary, and the name of a control system 
@@ -29,8 +34,7 @@ respective directory tree.
 * The directory tree contains a Makefile in the top directory level of the hierarchy, and that Makefile defines the **_$(TOP)_** directory. 
 * Most of the content is inherited from the **_$(EPICS_BASE)_**.
 
-* In this sample, there are some EPICS oriented environment values present. These are created by a simple shell script that the author uses as a standard way to set up EPICS environements.*
-
+* In this sample, there are some EPICS oriented environment values present. These are created by a simple shell script that the author uses as a standard way to set up EPICS environements.
 ```
     if [ -n "$1" ]; then
             export EPICS_CA_ADDR_LIST=$1

@@ -7,8 +7,9 @@ IOC. I find the lake of clear distinction between these to be confusing. I will 
 being used from here forward.
 
 I did this experiment to try to finally learn what the tool does, and how to make some use of it.
-The first big piece of information is the meaning behind the _-t type_ option. _type_ can be _example_ or _ioc_. 
-The _ioc_ option basically builds a skeleton frsamework for creating an IOC application binary of a specified name. 
+The first big piece of information is the meaning behind the _-t type_ option. _type_ can be _example_ or _ioc_ ( as well as _caClient_, _support_, & _caPerl_)
+. 
+The _ioc_ option basically builds a skeleton framework for creating an IOC application binary of a specified name. 
 The mystery distinction between that and the _example_ type is that the example type creates a collection of skeleton
 codes for building things like records, device support, subroutine records, etc. All in one directory; you get 
 to pick which skeleton you need to use for your use case, and (I guess) just discard the parts you don't need.

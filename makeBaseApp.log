@@ -1,0 +1,300 @@
+  565  1751843809 [ Sun 06 Jul 2025 04:16:49 PM PDT ]mkcd myExampleApp
+  566  1751843836 [ Sun 06 Jul 2025 04:17:16 PM PDT ]makeBaseApp.pl -t example myExample
+  567  1751843837 [ Sun 06 Jul 2025 04:17:17 PM PDT ]dir
+  568  1751843857 [ Sun 06 Jul 2025 04:17:37 PM PDT ]makeBaseApp.pl -t ioc myIocExample
+  569  1751843859 [ Sun 06 Jul 2025 04:17:39 PM PDT ]dir
+
+├── 1
+├── configure
+│   ├── CONFIG
+│   ├── CONFIG_SITE
+│   ├── Makefile
+│   ├── RELEASE
+│   ├── RULES
+│   ├── RULES_DIRS
+│   ├── RULES.ioc
+│   └── RULES_TOP
+├── makeBaseApp.log
+├── Makefile
+├── myExampleApp
+│   ├── Db
+│   │   ├── circle.db
+│   │   ├── dbExample1.db
+│   │   ├── dbExample2.db
+│   │   ├── dbSubExample.db
+│   │   ├── Makefile
+│   │   ├── myExampleVersion.db
+│   │   └── user.substitutions
+│   ├── Makefile
+│   └── src
+│       ├── dbSubExample.c
+│       ├── dbSubExample.dbd
+│       ├── devmyExampleVersion.c
+│       ├── devmyExampleVersion.dbd
+│       ├── devXxxSoft.c
+│       ├── initTrace.c
+│       ├── initTrace.dbd
+│       ├── Makefile
+│       ├── myExampleHello.c
+│       ├── myExampleHello.dbd
+│       ├── myExampleMain.cpp
+│       ├── sncExample.dbd
+│       ├── sncExample.stt
+│       ├── sncProgram.st
+│       ├── xxxRecord.c
+│       ├── xxxRecord.dbd
+│       └── xxxSupport.dbd
+└── myIocExampleApp
+    ├── Db
+    │   └── Makefile
+    ├── Makefile
+    └── src
+        ├── Makefile
+        └── myIocExampleMain.cpp
+
+  576  1751844083 [ Sun 06 Jul 2025 04:21:23 PM PDT ]make
+.
+7 directories, 40 files
+.
+├── 1
+├── bin
+│   └── linux-aarch64
+│       ├── myExample
+│       └── myIocExample
+├── configure
+│   ├── CONFIG
+│   ├── CONFIG_SITE
+│   ├── Makefile
+│   ├── O.Common
+│   ├── O.linux-aarch64
+│   │   └── Makefile
+│   ├── RELEASE
+│   ├── RULES
+│   ├── RULES_DIRS
+│   ├── RULES.ioc
+│   └── RULES_TOP
+├── db
+│   ├── circle.db
+│   ├── dbExample1.db
+│   ├── dbExample2.db
+│   ├── dbSubExample.db
+│   ├── myExampleVersion.db
+│   └── user.substitutions
+├── dbd
+│   ├── myExample.dbd
+│   ├── myIocExample.dbd
+│   ├── xxxRecord.dbd
+│   └── xxxSupport.dbd
+├── include
+│   └── xxxRecord.h
+├── lib
+│   └── linux-aarch64
+│       └── libmyExampleSupport.a
+├── makeBaseApp.log
+├── Makefile
+├── myExampleApp
+│   ├── Db
+│   │   ├── circle.db
+│   │   ├── dbExample1.db
+│   │   ├── dbExample2.db
+│   │   ├── dbSubExample.db
+│   │   ├── Makefile
+│   │   ├── myExampleVersion.db
+│   │   ├── O.Common
+│   │   ├── O.linux-aarch64
+│   │   │   └── Makefile
+│   │   └── user.substitutions
+│   ├── Makefile
+│   └── src
+│       ├── dbSubExample.c
+│       ├── dbSubExample.dbd
+│       ├── devmyExampleVersion.c
+│       ├── devmyExampleVersion.dbd
+│       ├── devXxxSoft.c
+│       ├── initTrace.c
+│       ├── initTrace.dbd
+│       ├── Makefile
+│       ├── myExampleHello.c
+│       ├── myExampleHello.dbd
+│       ├── myExampleMain.cpp
+│       ├── O.Common
+│       │   ├── myExample.dbd
+│       │   ├── myExampleVersion.h
+│       │   └── xxxRecord.h
+│       ├── O.linux-aarch64
+│       │   ├── dbSubExample.d
+│       │   ├── dbSubExample.o
+│       │   ├── devmyExampleVersion.d
+│       │   ├── devmyExampleVersion.o
+│       │   ├── devXxxSoft.d
+│       │   ├── devXxxSoft.o
+│       │   ├── initTrace.d
+│       │   ├── initTrace.o
+│       │   ├── libmyExampleSupport.a
+│       │   ├── Makefile
+│       │   ├── myExample
+│       │   ├── myExample.dbd.d
+│       │   ├── myExampleHello.d
+│       │   ├── myExampleHello.o
+│       │   ├── myExampleMain.d
+│       │   ├── myExampleMain.o
+│       │   ├── myExample_registerRecordDeviceDriver.cpp
+│       │   ├── myExample_registerRecordDeviceDriver.d
+│       │   ├── myExample_registerRecordDeviceDriver.o
+│       │   ├── xxxRecord.d
+│       │   ├── xxxRecord.h.d
+│       │   └── xxxRecord.o
+│       ├── sncExample.dbd
+│       ├── sncExample.stt
+│       ├── sncProgram.st
+│       ├── xxxRecord.c
+│       ├── xxxRecord.dbd
+│       └── xxxSupport.dbd
+└── myIocExampleApp
+    ├── Db
+    │   ├── Makefile
+    │   ├── O.Common
+    │   └── O.linux-aarch64
+    │       └── Makefile
+    ├── Makefile
+    └── src
+        ├── Makefile
+        ├── myIocExampleMain.cpp
+        ├── O.Common
+        │   └── myIocExample.dbd
+        └── O.linux-aarch64
+            ├── Makefile
+            ├── myIocExample
+            ├── myIocExample.dbd.d
+            ├── myIocExampleMain.d
+            ├── myIocExampleMain.o
+            ├── myIocExample_registerRecordDeviceDriver.cpp
+            ├── myIocExample_registerRecordDeviceDriver.d
+            └── myIocExample_registerRecordDeviceDriver.o
+
+24 directories, 91 files
+
+  641  1751909041 [ Mon 07 Jul 2025 10:24:01 AM PDT ]makeBaseApp.pl -i -t ioc GenericStream
+
+myExampleApp/
+├── bin
+│   └── linux-aarch64
+│       ├── myExample
+│       └── myIocExample
+├── configure
+│   ├── CONFIG
+│   ├── CONFIG_SITE
+│   ├── Makefile
+│   ├── O.Common
+│   ├── O.linux-aarch64
+│   │   └── Makefile
+│   ├── RELEASE
+│   ├── RULES
+│   ├── RULES_DIRS
+│   ├── RULES.ioc
+│   └── RULES_TOP
+├── db
+│   ├── circle.db
+│   ├── dbExample1.db
+│   ├── dbExample2.db
+│   ├── dbSubExample.db
+│   ├── myExampleVersion.db
+│   └── user.substitutions
+├── dbd
+│   ├── myExample.dbd
+│   ├── myIocExample.dbd
+│   ├── xxxRecord.dbd
+│   └── xxxSupport.dbd
+├── include
+│   └── xxxRecord.h
+├── iocBoot
+│   ├── iocGenericStream
+│   │   ├── Makefile
+│   │   └── st.cmd
+│   └── Makefile
+├── lib
+│   └── linux-aarch64
+│       └── libmyExampleSupport.a
+├── makeBaseApp.log
+├── Makefile
+├── myExampleApp
+│   ├── Db
+│   │   ├── circle.db
+│   │   ├── dbExample1.db
+│   │   ├── dbExample2.db
+│   │   ├── dbSubExample.db
+│   │   ├── Makefile
+│   │   ├── myExampleVersion.db
+│   │   ├── O.Common
+│   │   ├── O.linux-aarch64
+│   │   │   └── Makefile
+│   │   └── user.substitutions
+│   ├── Makefile
+│   └── src
+│       ├── dbSubExample.c
+│       ├── dbSubExample.dbd
+│       ├── devmyExampleVersion.c
+│       ├── devmyExampleVersion.dbd
+│       ├── devXxxSoft.c
+│       ├── initTrace.c
+│       ├── initTrace.dbd
+│       ├── Makefile
+│       ├── myExampleHello.c
+│       ├── myExampleHello.dbd
+│       ├── myExampleMain.cpp
+│       ├── O.Common
+│       │   ├── myExample.dbd
+│       │   ├── myExampleVersion.h
+│       │   └── xxxRecord.h
+│       ├── O.linux-aarch64
+│       │   ├── dbSubExample.d
+│       │   ├── dbSubExample.o
+│       │   ├── devmyExampleVersion.d
+│       │   ├── devmyExampleVersion.o
+│       │   ├── devXxxSoft.d
+│       │   ├── devXxxSoft.o
+│       │   ├── initTrace.d
+│       │   ├── initTrace.o
+│       │   ├── libmyExampleSupport.a
+│       │   ├── Makefile
+│       │   ├── myExample
+│       │   ├── myExample.dbd.d
+│       │   ├── myExampleHello.d
+│       │   ├── myExampleHello.o
+│       │   ├── myExampleMain.d
+│       │   ├── myExampleMain.o
+│       │   ├── myExample_registerRecordDeviceDriver.cpp
+│       │   ├── myExample_registerRecordDeviceDriver.d
+│       │   ├── myExample_registerRecordDeviceDriver.o
+│       │   ├── xxxRecord.d
+│       │   ├── xxxRecord.h.d
+│       │   └── xxxRecord.o
+│       ├── sncExample.dbd
+│       ├── sncExample.stt
+│       ├── sncProgram.st
+│       ├── xxxRecord.c
+│       ├── xxxRecord.dbd
+│       └── xxxSupport.dbd
+└── myIocExampleApp
+    ├── Db
+    │   ├── Makefile
+    │   ├── O.Common
+    │   └── O.linux-aarch64
+    │       └── Makefile
+    ├── Makefile
+    └── src
+        ├── Makefile
+        ├── myIocExampleMain.cpp
+        ├── O.Common
+        │   └── myIocExample.dbd
+        └── O.linux-aarch64
+            ├── Makefile
+            ├── myIocExample
+            ├── myIocExample.dbd.d
+            ├── myIocExampleMain.d
+            ├── myIocExampleMain.o
+            ├── myIocExample_registerRecordDeviceDriver.cpp
+            ├── myIocExample_registerRecordDeviceDriver.d
+            └── myIocExample_registerRecordDeviceDriver.o
+
+26 directories, 93 files

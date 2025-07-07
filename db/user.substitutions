@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2006 Argonne National Laboratory
+#
+# SPDX-License-Identifier: EPICS
+
+# Example substitutions file
+
+file "db/circle.db" {
+    { user = "bomr" }
+}
+
+file "db/dbExample1.db" {
+    { user = "bomr" }
+}
+
+file db/dbExample2.db {
+    pattern { user, no, scan }
+        { "bomr", 1, "1 second" }
+        { "bomr", 2, "2 second" }
+        { "bomr", 3, "5 second" }
+}

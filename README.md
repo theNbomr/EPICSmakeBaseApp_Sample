@@ -20,6 +20,6 @@ distinct, although they don't have to be. In my experience, the IOC name reflect
 IOC Application binary name reflects the types of EPICS Device Support that was used to build the application (making it
 re-usable for multiple projects/use cases).
 
-This log file here shows the effects of progressively adding makeBaseApp.pl invocations, and showing the effect on the 
+The log file here shows the effects of progressively adding makeBaseApp.pl invocations, and showing the effect on the 
 respective directory tree.
 

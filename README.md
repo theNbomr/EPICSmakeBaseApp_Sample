@@ -1,10 +1,10 @@
 # EPICS makeBaseApp.pl Sample Use Case
 
 First off: this is about **EPICS** 
-* https://epics-controls.org/
+[Epics Controls](https://epics-controls.org)
 
 This is to demonstrate some standard use cases for the EPICS **_makeBaseApp.pl_** utility, documented officially in
-* https://epics.anl.gov/base/R3-16/2-docs/AppDevGuide.pdf
+[EPICS Application Developer's Guide](https://epics.anl.gov/base/R3-16/2-docs/AppDevGuide.pdf)
 
 Note: In this document (and in the EPICS documentation and script output), the term IOC or IOC Application
 gets commonly used to mean one of two things; the name of an IOC Application binary, and the name of a control system 

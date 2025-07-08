@@ -1,7 +1,7 @@
 # EPICS makeBaseApp.pl Sample Use Case
 
-First off: this is about **EPICS** 
-[Epics Controls](https://epics-controls.org)
+First off: this is about 
+[**Epics Controls**](https://epics-controls.org)
 
 This is to demonstrate some standard use cases for the EPICS **_makeBaseApp.pl_** utility, documented officially in
 [EPICS Application Developer's Guide](https://epics.anl.gov/base/R3-16/2-docs/AppDevGuide.pdf)
